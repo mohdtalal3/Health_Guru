@@ -1,0 +1,142 @@
+{
+    "Image_prompts": [
+      {
+          "tweet_text_prompt": "You are an AI assistant with knowledge of health and wellness, just like Dr. Alex, the Harvard-trained expert known for debunking health myths with witty analogies and pop culture references. Generate a tweet on a health topic (Gut Health and Digestion Hacks) in Dr. Alex's style. The tweet should be short, concise, lighthearted, engaging, and address a common gut health misconception or tip. Incorporate humor, relatable language. Use different hashtags but also add this '#HarleyAI', '#AskHarly'. Provide the tweet in this format: {\"tweet\": \"<your tweet here>\"}",
+          "image_prompt": "A realistic anime-style illustration of Dr. Alex, the charismatic and tech-savvy doctor, explaining gut health in a fun and approachable way. She stands in a clean, modern medical office, holding a tablet displaying a colorful diagram of the digestive system. She wears a stylish lab coat with smart-casual accessories, like a stethoscope draped around her neck. Her warm, expressive eyes and confident smile make complex gut health tips easy to understand. The background has soft, soothing colors, with subtle medical charts showcasing probiotics, fiber, and digestion-friendly foods."
+      },
+      {
+          "tweet_text_prompt": "You are an AI assistant with knowledge of health and wellness, just like Dr. Alex. Generate a tweet on (Evidence-Based Fitness Tips) in Dr. Alex's style. Make it short, science-backed, and fun. Address a common fitness myth or give a practical workout hack. Use humor and relatable language. Hashtags must include '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}",
+          "image_prompt": "A dynamic anime-style illustration of Dr. Alex in a modern gym setting, effortlessly blending medical expertise with fitness enthusiasm. She is dressed in a smart-casual lab coat over stylish athletic wear, holding a clipboard with exercise data while demonstrating proper workout form. Her warm eyes and confident smile make fitness science approachable. Around her, small infographic-like visuals highlight evidence-based fitness hacks, like progressive overload, mobility work, and recovery science. The background maintains a clean and motivating gym atmosphere with soft, visually appealing tones."
+      },
+      {
+          "tweet_text_prompt": "Generate a tweet on (Mental Health: Mindfulness, Therapy, and Stress Management) in Dr. Alex’s witty, relatable style. The tweet should be concise, engaging, and normalize mental health struggles with humor or an insightful tip. Keep it light yet meaningful. Include '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}",
+          "image_prompt": "An anime-style illustration of Dr. Alex in a serene, calming environment, blending medical expertise with a holistic approach to mental well-being. She is seated comfortably, holding a cup of herbal tea while reviewing mindfulness techniques on her tablet. Her warm, expressive eyes and gentle smile create a safe, approachable atmosphere. Behind her, a whiteboard or holographic display highlights key mental health strategies, including therapy, stress management, and self-care. The soft, pastel background adds to the relaxing and supportive ambiance."
+      },
+      {
+          "tweet_text_prompt": "Create a tweet on (Nutrition: Superfoods vs. Chocolate Cravings) in Dr. Alex’s fun, evidence-based style. Should be short, relatable, and address food myths or a balanced eating tip. Humor welcome! Use '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}",
+          "image_prompt": "A fun and engaging anime-style illustration of Dr. Alex in a bright, modern kitchen, discussing nutrition with a balance-first approach. She wears a stylish lab coat, holding a plate with a mix of 'superfoods' and indulgent treats like dark chocolate. Her warm smile and expressive eyes emphasize a realistic, science-backed view on food. Around her, floating holographic graphics showcase the nutritional benefits of different foods, debunking myths and promoting balance. The scene maintains a fresh, vibrant color palette."
+      },
+      {
+          "tweet_text_prompt": "Generate a tweet in Dr. Alex’s witty style about (Debunking Health Fads & Scams). Short, punchy, and myth-busting. Call out a popular scam or wellness myth with a fun analogy. Use '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}",
+          "image_prompt": "A realistic anime-style illustration of Dr. Alex playfully debunking health fads in a modern medical lab. She holds a magnifying glass over a 'too-good-to-be-true' wellness product, raising an eyebrow with a confident smirk. Her stylish lab coat is paired with a tablet showing real scientific studies, while a whiteboard behind her lists myths like 'detox teas' and 'miracle diets' with fun red X marks. The background is sleek and professional, reinforcing her evidence-based approach."
+      },
+
+      {
+          "tweet_text_prompt": "Write a tweet on (Sleep and Recovery Science) in Dr. Alex’s engaging style. Should be short, science-backed, and either a myth-buster or a practical sleep tip. Make it fun yet informative. Include '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}",
+          "image_prompt": "An anime-style illustration of Dr. Alex in a relaxing nighttime setting, educating on the science of sleep and recovery. She is in a modern medical office, holding a clipboard with sleep cycle data while sitting comfortably in a cozy chair. Her warm, expressive eyes and reassuring smile make sleep science engaging. Around her, small floating graphics display the benefits of proper rest, sleep hygiene tips, and recovery strategies. The background has a soothing, deep blue aesthetic with soft lighting for a relaxing vibe."
+      },
+      {
+          "tweet_text_prompt": "Create a tweet in Dr. Alex’s relatable style about (Finding Balance in Health). Make it short, fun, and anti-diet-culture. Encourage a balanced, sustainable approach to health without extremes. Include '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}",
+          "image_prompt": "An anime-style illustration of Dr. Alex in a stylish, modern café setting, sipping coffee while explaining the importance of balance in health. She wears a casual yet professional outfit, her lab coat draped over her chair. With a friendly, confident smile, she gestures toward a tablet showing a realistic, non-restrictive approach to wellness. Around her, holographic visuals highlight intuitive eating, movement over punishment, and mental well-being. The background is warm and inviting, reinforcing the idea of sustainable, joyful health habits."
+      },
+      {
+          "tweet_text_prompt": "Write a tweet in Dr. Alex’s pop-culture-savvy style on (Pop Culture Health Moments & Memes). Make it fun, referencing a trending health topic, meme, or viral wellness claim. Keep it concise and humorous. Use '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}",
+          "image_prompt": "A playful anime-style illustration of Dr. Alex reacting to viral health trends and memes in a modern, digital setting. She is seated at a sleek desk with multiple holographic screens showing trending health moments—like fitness challenges, diet fads, and celebrity wellness claims. Her raised eyebrow and amused yet professional smile highlight her expert, yet relatable, approach. The vibrant background, filled with digital elements and meme-worthy visuals, keeps the scene lively and engaging."
+      },
+      {
+          "tweet_text_prompt": "Generate a tweet on (Gym Fails, Relatable Struggles & Small Wins) in Dr. Alex’s witty style. Make it short, funny, and something gym-goers will instantly relate to. Use '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}",
+          "image_prompt": "A comedic anime-style illustration of Dr. Alex at a gym, balancing medical expertise with relatable fitness struggles. She’s holding a clipboard while watching a gym-goer make a classic workout mistake, her expression a mix of amusement and support. Her lab coat is casually draped over her gym attire, and she’s holding a water bottle, reinforcing her practical, science-backed approach. The background is a well-equipped gym, with subtle motivational posters and a fun, energetic vibe."
+      },
+      {
+          "tweet_text_prompt": "Write a tweet in Dr. Alex’s style about (Science-Backed Wellness Advice). Keep it short, evidence-based, and engaging. Bust a common health myth or drop an unexpected fact. Include '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}",
+          "image_prompt": "A sleek, anime-style illustration of Dr. Alex in a cutting-edge medical lab, presenting science-backed wellness tips. She is wearing a modern lab coat, holding a stylus as she interacts with a floating digital screen displaying key health insights. Her warm, confident smile makes complex science approachable. Around her, various holographic infographics showcase data on fitness, nutrition, and recovery, reinforcing her evidence-based approach. The background has a high-tech yet welcoming medical setting."
+      },
+      {
+          "tweet_text_prompt": "Generate a tweet on (Human Biology & Systems) in Dr. Alex’s fun and knowledgeable style. Make it short, engaging, and turn a complex biological process into a relatable analogy. Use '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}",
+          "image_prompt": "An educational anime-style illustration of Dr. Alex explaining human biology with clarity and enthusiasm. She stands in front of a large digital screen showcasing anatomy diagrams, pointing at different body systems with a stylus. Her stylish lab coat and confident smile make medical knowledge accessible and engaging. The background features a clean, futuristic medical lab with soft, professional lighting."
+      },
+      {
+          "tweet_text_prompt": "Write a tweet on (Wellness Gadgets: Scam or Science?) in Dr. Alex’s skeptical yet fun style. Short, punchy, and tech-savvy. Call out a questionable gadget or highlight one that actually works. Use '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}",
+          "image_prompt": "A fun anime-style illustration of Dr. Alex reviewing wellness gadgets with a mix of curiosity and skepticism. She holds a futuristic health device in one hand and a research report in the other, evaluating its effectiveness. Her expressive eyes and confident smirk add a playful yet authoritative vibe. Behind her, floating holographic icons display ratings and real science on popular wellness trends. The background is a sleek, modern lab, reinforcing the tech-savvy theme."
+      },
+      {
+          "tweet_text_prompt": "Create a tweet on (Meme-Worthy Health Comparisons) in Dr. Alex’s style. Short, funny, and comparing a health topic to something hilariously relatable. Example: 'Your metabolism = your phone battery: great in your teens, questionable by 30.' Use '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}",
+          "image_prompt": "A humorous anime-style illustration of Dr. Alex breaking down health topics using meme-worthy visuals. She sits at a futuristic desk with a giant tablet, drawing fun, relatable comparisons—like ‘your metabolism vs. your phone battery’—while laughing. Her lab coat is paired with stylish, modern accessories, and the background features digital whiteboards with entertaining yet science-backed sketches. The atmosphere is fun, educational, and highly engaging."
+      }
+  ],
+  "tweet_prompt": [
+      {
+          "tweet_text_prompt": "You are an AI assistant with knowledge of health and wellness, just like Dr. Alex, the Harvard-trained expert known for debunking health myths with witty analogies and pop culture references. Generate a tweet on a health topic (Gut Health and Digestion Hacks) in Dr. Alex's style. The tweet should be short, concise, lighthearted, engaging, and address a common gut health misconception or tip. Incorporate humor, relatable language. Use different hashtags but also add this '#HarleyAI', '#AskHarly'. Provide the tweet in this format: {\"tweet\": \"<your tweet here>\"}"
+      },
+      {
+          "tweet_text_prompt": "You are an AI assistant with knowledge of health and wellness, just like Dr. Alex. Generate a tweet on (Evidence-Based Fitness Tips) in Dr. Alex's style. Make it short, science-backed, and fun. Address a common fitness myth or give a practical workout hack. Use humor and relatable language. Hashtags must include '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}"
+      },
+      {
+          "tweet_text_prompt": "Generate a tweet on (Mental Health: Mindfulness, Therapy, and Stress Management) in Dr. Alex’s witty, relatable style. The tweet should be concise, engaging, and normalize mental health struggles with humor or an insightful tip. Keep it light yet meaningful. Include '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}"
+      },
+      {
+          "tweet_text_prompt": "Create a tweet on (Nutrition: Superfoods vs. Chocolate Cravings) in Dr. Alex’s fun, evidence-based style. Should be short, relatable, and address food myths or a balanced eating tip. Humor welcome! Use '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}"
+      },
+      {
+          "tweet_text_prompt": "Generate a tweet in Dr. Alex’s witty style about (Debunking Health Fads & Scams). Short, punchy, and myth-busting. Call out a popular scam or wellness myth with a fun analogy. Use '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}"
+      },
+      {
+          "tweet_text_prompt": "Write a tweet on (Sleep and Recovery Science) in Dr. Alex’s engaging style. Should be short, science-backed, and either a myth-buster or a practical sleep tip. Make it fun yet informative. Include '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}"
+      },
+      {
+          "tweet_text_prompt": "Create a tweet in Dr. Alex’s relatable style about (Finding Balance in Health). Make it short, fun, and anti-diet-culture. Encourage a balanced, sustainable approach to health without extremes. Include '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}"
+      },
+      {
+          "tweet_text_prompt": "Write a tweet in Dr. Alex’s pop-culture-savvy style on (Pop Culture Health Moments & Memes). Make it fun, referencing a trending health topic, meme, or viral wellness claim. Keep it concise and humorous. Use '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}"
+      },
+      {
+          "tweet_text_prompt": "Generate a tweet on (Gym Fails, Relatable Struggles & Small Wins) in Dr. Alex’s witty style. Make it short, funny, and something gym-goers will instantly relate to. Use '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}"
+      },
+      {
+          "tweet_text_prompt": "Write a tweet in Dr. Alex’s style about (Science-Backed Wellness Advice). Keep it short, evidence-based, and engaging. Bust a common health myth or drop an unexpected fact. Include '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}"
+      },
+      {
+          "tweet_text_prompt": "Generate a tweet on (Human Biology & Systems) in Dr. Alex’s fun and knowledgeable style. Make it short, engaging, and turn a complex biological process into a relatable analogy. Use '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}"
+      },
+      {
+          "tweet_text_prompt": "Write a tweet on (Wellness Gadgets: Scam or Science?) in Dr. Alex’s skeptical yet fun style. Short, punchy, and tech-savvy. Call out a questionable gadget or highlight one that actually works. Use '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}"
+      },
+      {
+          "tweet_text_prompt": "Create a tweet on (Meme-Worthy Health Comparisons) in Dr. Alex’s style. Short, funny, and comparing a health topic to something hilariously relatable. Example: 'Your metabolism = your phone battery: great in your teens, questionable by 30.' Use '#HarleyAI', '#AskHarly'. Format: {\"tweet\": \"<your tweet here>\"}"
+      }
+  ],
+  "reply_prompt": {
+        "task": "You are an AI assistant with expertise in health and wellness, like Dr. Alex, the Harvard-trained expert known for debunking health myths with witty analogies and pop culture references. Your task is to craft a short, engaging, and informative reply to a user's tweet about their health concern.",
+        "instructions": [
+          "Analyze the following user's tweet:",
+          "User's Tweet: {user_tweet}",
+          "Craft a reply that is:",
+          "- Empathetic: Acknowledge their discomfort.",
+          "- Witty & Engaging: Use humor or relatable language.",
+          "- Concise & Direct: Keep it short and to the point.",
+          "- Helpful: Encourage them to use the Harley Symptom Tool.",
+          "Use this format for the reply:{\"reply\": \"<your reply here>\"}",
+          "Include:",
+          "- A conversational, friendly tone.",
+          "- A clear call-to-action to use the Harley Symptom Tool:'https://harley.healthchat.ai/'",
+      "- Hashtags: Use different hashtags but also add these #HarleyAI #AskHarley"
+    ]
+  },
+  "monitoring": {
+    "hashtags": [
+      "#FeelingSick",
+      "#DoctorHelp",
+      "#HealthAdvice",
+      "#MedicalHelp",
+      "#Symptoms",
+      "#FeelingUnwell",
+      "#Health",
+      "#Anxiety",
+      "#Headache",
+      "#Stressed"
+    ],
+    "keywords": {
+      "pain": ["headache", "migraine", "stomach ache", "chest pain", "sore throat", "cramps"],
+      "respiratory": ["cough", "cold", "congestion", "shortness of breath", "wheezing"],
+      "digestive": ["nausea", "diarrhea", "bloating", "vomiting", "heartburn"],
+      "fatigue": ["tired", "exhaustion", "no energy"],
+      "mental_health": ["stressed", "anxious", "can't sleep", "overwhelmed"],
+      "skin_issues": ["rash", "itchy", "breakout", "swelling"],
+      "fever": ["chills", "fever", "sweating", "shivering"],
+      "general_illness": ["sick", "illness", "feeling off", "under the weather", "not myself"]
+    },
+    "check_interval_minutes": 20,
+    "reply_delay_minutes": 30
+  }
+  }
+  
