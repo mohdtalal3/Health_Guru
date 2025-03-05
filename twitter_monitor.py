@@ -4,13 +4,12 @@ import time
 import threading
 import queue
 import random
-import datetime
 import logging
 import os
+from datetime import datetime, timedelta, timezone
 from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 from ai_utils import generate_reply
 from twitter_poster import load_config, initialize_twitter_client
-from datetime import timedelta, timezone
 
 # Set up logging with UTF-8 encoding
 logging.basicConfig(
@@ -421,7 +420,7 @@ def monitor_keywords(client, api):
             time.sleep(60)  # Wait 1 minute before retrying
 
 def reply_worker(client, api):
-    """Process the reply queue and post replies."""
+    """Process tweets in the reply queue and post replies."""
     logger.info("Starting reply worker thread")
     
     while True:
@@ -455,15 +454,14 @@ def reply_worker(client, api):
                     
                     # Calculate when we should reply
                     reply_after = created_at + timedelta(minutes=tweet_data["delay_minutes"])
-                    now = datetime.now(timezone.utc)
+                    current_time = datetime.now(timezone.utc)
                     
                     # If it's not time to reply yet, put it back in the queue
-                    if now < reply_after:
-                        time_to_wait = (reply_after - now).total_seconds()
+                    if current_time < reply_after:
+                        time_to_wait = (reply_after - current_time).total_seconds()
                         logger.info(f"Not time to reply to tweet {tweet_data['tweet_id']} yet. Waiting {time_to_wait/60:.1f} more minutes")
                         reply_queue.put(tweet_data)
-                        reply_queue.task_done()
-                        time.sleep(5)  # Sleep a bit before checking the next item
+                        time.sleep(60)  # Sleep for a minute before checking the next tweet
                         continue
             
             # Generate a reply using AI
@@ -578,7 +576,7 @@ def test_reply_queue(client):
         "tweet_id": "1234567890",  # This is a dummy ID
         "user_id": "987654321",    # This is a dummy ID
         "text": "@DrAlexAI I've been so tired lately, no matter how much I sleep. What's wrong with me?",
-        "created_at": datetime.datetime.now(datetime.timezone.utc),
+        "created_at": datetime.now(timezone.utc),  # Fixed datetime usage
         "delay_minutes": 0,        # Reply immediately
         "is_reply_to_us": False
     })
