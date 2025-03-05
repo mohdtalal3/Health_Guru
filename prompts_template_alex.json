@@ -135,8 +135,8 @@
       "fever": ["chills", "fever", "sweating", "shivering"],
       "general_illness": ["sick", "illness", "feeling off", "under the weather", "not myself"]
     },
-    "check_interval_minutes": 20,
-    "reply_delay_minutes": 30
+    "check_interval_minutes": 5,
+    "reply_delay_minutes": 10
   }
   }
   
